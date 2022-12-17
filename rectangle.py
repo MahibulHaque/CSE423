@@ -7,8 +7,8 @@ from OpenGL.GLUT import *
 
 
 def drawRectangle(x1, y1, x2, y2, x3, y3, x4, y4,colors, filled=False ):
-    y1=max(-450,y1)
-    y2=max(-450,y2)
+    y1=max(-430,y1)
+    y2=max(-430,y2)
     y3=max(-450,y3)
     y4=max(-450,y4)
 
