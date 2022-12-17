@@ -115,7 +115,7 @@ def convertZoneToRandom(x11, y11, zone):
         return x1, y1
 
 
-def drawLineMidPoint(x1, y1, x2, y2, colors):
+def drawLineMidPoint(x1, y1, x2, y2, colors=(215, 214, 0, 95)):
     zo = findzone(x1, y1, x2, y2)
     if (zo != 0):
         x1, y1, x2, y2 = convertZoneToZero(x1, y1, x2, y2, zo)

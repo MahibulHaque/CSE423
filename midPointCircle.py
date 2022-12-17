@@ -5,7 +5,7 @@ import math
 
 
 def draw_points(x, y):
-    glPointSize(1)  # pixel size. by default 1 thake
+    glPointSize(5)  # pixel size. by default 1 thake
     glBegin(GL_POINTS)
     glColor3f(x / (1600 / 2), y / (900 / 2), .4)
     glVertex2f(x / (1600 / 2), y / (900 / 2))  # jekhane show korbe pixel
